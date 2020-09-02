@@ -1,0 +1,316 @@
+POST http://localhost:3000/basic/insert HTTP/1.1
+Content-Type: application/json
+
+{
+    "data": [
+        {
+            "optionId": 1000000001,
+            "optionType": 0,
+            "companyId": 1100000001,
+            "audienceCount": 1,
+            "cost": 1
+        },
+        {
+            "optionId": 1000000002,
+            "optionType": 0,
+            "companyId": 1100000001,
+            "audienceCount": 1,
+            "cost": 2
+        },
+        {
+            "optionId": 1000000003,
+            "optionType": 0,
+            "companyId": 1100000001,
+            "audienceCount": 1,
+            "cost": 3
+        },
+        {
+            "optionId": 1000000004,
+            "optionType": 0,
+            "companyId": 1100000001,
+            "audienceCount": 1,
+            "cost": 4
+        },
+        {
+            "optionId": 1000000005,
+            "optionType": 0,
+            "companyId": 1100000001,
+            "audienceCount": 1,
+            "cost": 1
+        },
+        {
+            "optionId": 1000000006,
+            "optionType": 0,
+            "companyId": 1100000002,
+            "audienceCount": 2,
+            "cost": 1
+        },
+        {
+            "optionId": 1000000007,
+            "optionType": 0,
+            "companyId": 1100000002,
+            "audienceCount": 3,
+            "cost": 1
+        },
+        {
+            "optionId": 1000000008,
+            "optionType": 0,
+            "companyId": 1100000001,
+            "audienceCount": 4,
+            "cost": 1
+        },
+        {
+            "optionId": 1000000009,
+            "optionType": 0,
+            "companyId": 1100000002,
+            "audienceCount": 1,
+            "cost": 4
+        },
+        {
+            "optionId": 1000000010,
+            "optionType": 0,
+            "companyId": 1100000002,
+            "audienceCount": 2,
+            "cost": 3
+        },
+        {
+            "optionId": 1000000011,
+            "optionType": 0,
+            "companyId": 1100000003,
+            "audienceCount": 3,
+            "cost": 2
+        },
+        {
+            "optionId": 1000000012,
+            "optionType": 0,
+            "companyId": 1100000003,
+            "audienceCount": 4,
+            "cost": 1
+        },
+        {
+            "optionId": 1000000013,
+            "optionType": 0,
+            "companyId": 1100000003,
+            "audienceCount": 1,
+            "cost": 3
+        },
+        {
+            "optionId": 1000000014,
+            "optionType": 0,
+            "companyId": 1100000003,
+            "audienceCount": 2,
+            "cost": 1
+        },
+        {
+            "optionId": 1000000015,
+            "optionType": 0,
+            "companyId": 1100000003,
+            "audienceCount": 3,
+            "cost": 4
+        },
+        {
+            "optionId": 1000000016,
+            "optionType": 0,
+            "companyId": 1100000004,
+            "audienceCount": 4,
+            "cost": 2
+        }
+    ]
+}
+
+###
+POST http://localhost:3000/advance/insert HTTP/1.1
+Content-Type: application/json
+
+{
+    "data": [
+        {
+            "optionId": 1000000001,
+            "optionType": 1,
+            "companyId": 1100000001,
+            "audienceCount": 1,
+            "cost": 1
+        },
+        {
+            "optionId": 1000000002,
+            "optionType": 1,
+            "companyId": 1100000001,
+            "audienceCount": 1,
+            "cost": 2
+        },
+        {
+            "optionId": 1000000003,
+            "optionType": 1,
+            "companyId": 1100000001,
+            "audienceCount": 1,
+            "cost": 3
+        },
+        {
+            "optionId": 1000000004,
+            "optionType": 1,
+            "companyId": 1100000001,
+            "audienceCount": 1,
+            "cost": 4
+        },
+        {
+            "optionId": 1000000005,
+            "optionType": 1,
+            "companyId": 1100000001,
+            "audienceCount": 1,
+            "cost": 2
+        },
+        {
+            "optionId": 1000000006,
+            "optionType": 1,
+            "companyId": 1100000002,
+            "audienceCount": 2,
+            "cost": 2
+        },
+        {
+            "optionId": 1000000007,
+            "optionType": 1,
+            "companyId": 1100000002,
+            "audienceCount": 3,
+            "cost": 2
+        },
+        {
+            "optionId": 1000000008,
+            "optionType": 1,
+            "companyId": 1100000002,
+            "audienceCount": 4,
+            "cost": 2
+        },
+        {
+            "optionId": 1000000009,
+            "optionType": 1,
+            "companyId": 1100000002,
+            "audienceCount": 1,
+            "cost": 4
+        },
+        {
+            "optionId": 1000000010,
+            "optionType": 1,
+            "companyId": 1100000002,
+            "audienceCount": 2,
+            "cost": 3
+        },
+        {
+            "optionId": 1000000011,
+            "optionType": 1,
+            "companyId": 1100000003,
+            "audienceCount": 3,
+            "cost": 2
+        },
+        {
+            "optionId": 1000000012,
+            "optionType": 1,
+            "companyId": 1100000003,
+            "audienceCount": 4,
+            "cost": 1
+        },
+        {
+            "optionId": 1000000013,
+            "optionType": 1,
+            "companyId": 1100000003,
+            "audienceCount": 1,
+            "cost": 3
+        },
+        {
+            "optionId": 1000000014,
+            "optionType": 1,
+            "companyId": 1100000003,
+            "audienceCount": 2,
+            "cost": 1
+        },
+        {
+            "optionId": 1000000015,
+            "optionType": 1,
+            "companyId": 1100000003,
+            "audienceCount": 3,
+            "cost": 4
+        },
+        {
+            "optionId": 1000000016,
+            "optionType": 1,
+            "companyId": 1100000004,
+            "audienceCount": 4,
+            "cost": 2
+        }
+    ]
+}
+
+### 
+
+GET http://localhost:3000/basic/data?companyId=1100000004&audienceCount=1&page=0&pageSize=2 HTTP/1.1
+Content-Type: application/json
+
+
+### 
+
+GET http://localhost:3000/basic/data?companyId=&audienceCount=1 HTTP/1.1
+Content-Type: application/json
+
+### Basic Result API
+
+###
+GET http://localhost:3000/basic/result?optionIds=1000000001,1000000002&budget=1 HTTP/1.1
+
+### Check if budget and options are entered
+GET http://localhost:3000/basic/result?optionIds=&budget= HTTP/1.1
+Content-Type: application/json
+
+### Check if budget is entered
+GET http://localhost:3000/basic/result?optionIds=1000000001,1000000002&budget= HTTP/1.1
+Content-Type: application/json
+
+### Check if options are entered
+GET http://localhost:3000/basic/result?optionIds=&budget=30 HTTP/1.1
+Content-Type: application/json
+
+### Check if there are two options
+GET http://localhost:3000/basic/result?optionIds=1000000001&budget=30 HTTP/1.1
+
+### Check if there are duplicate values
+GET http://localhost:3000/basic/result?optionIds=1000000001,1000000001&budget=30 HTTP/1.1
+
+### Check if options exist in the database
+GET http://localhost:3000/basic/result?optionIds=1,1000000002&budget=30 HTTP/1.1
+
+###_________________________________________________________________________________________________________________________
+
+###
+GET http://localhost:3000/advance/data?companyId=9900000004&audienceCount=1&cost=1&page=0&pageSize=10 HTTP/1.1
+Content-Type: application/json
+
+###
+GET http://localhost:3000/advance/result?optionIds=9000000001,9000000002&budget=2 HTTP/1.1
+Content-Type: application/json
+
+### Check if budget and id is entered
+GET http://localhost:3000/advance/result?optionIds=&budget= HTTP/1.1
+Content-Type: application/json
+
+### Check if id is entered
+GET http://localhost:3000/advance/result?optionIds=&budget=4 HTTP/1.1
+Content-Type: application/json
+
+### Check if budget is entered
+GET http://localhost:3000/advance/result?optionIds=9000000001,9000000002,9000000003&budget= HTTP/1.1
+Content-Type: application/json
+
+### Check if at least 2 ids are entered
+GET http://localhost:3000/advance/result?optionIds=9000000001&budget=4 HTTP/1.1
+Content-Type: application/json
+
+### Check for duplicate ids
+GET http://localhost:3000/advance/result?optionIds=9000000001,9000000001&budget=4 HTTP/1.1
+Content-Type: application/json
+
+### Check if id exist
+GET http://localhost:3000/advance/result?optionIds=9000000001,1&budget=4 HTTP/1.1
+Content-Type: application/json
+
+
+### Reset API
+GET http://localhost:3000/reset HTTP/1.1
+Content-Type: application/json
