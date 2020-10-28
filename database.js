@@ -2,7 +2,7 @@ const { Client } = require('pg');
 const { options } = require('./app');
 const { validateResultAPI } = require('./validation');
 
-const CONNECTION_STRING = 'SECRET';
+const CONNECTION_STRING = '	postgres://ajpxdykx:Jyy5a_QYCGP8nFXjrqP3psDgBuflrm-v@john.db.elephantsql.com:5432/ajpxdykx';
 
 function connect() {
     const client = new Client({
