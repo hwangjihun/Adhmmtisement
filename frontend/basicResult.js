@@ -1,4 +1,4 @@
-const basicResultUrl = 'http://localhost:3000/basic/result';
+const basicResultUrl = 'https://adhmmtisement.herokuapp.com/basic/result';
 
 const basicResultQuery = {
     optionIds: [],
