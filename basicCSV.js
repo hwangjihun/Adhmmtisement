@@ -1,4 +1,4 @@
-const basicCSVResultUrl = 'http://localhost:3000/basic/result';
+const basicCSVResultUrl = 'https://adhmmtisement.herokuapp.com/basic/result';
 
 const basicCSVResultQuery = {
     optionIds: null,

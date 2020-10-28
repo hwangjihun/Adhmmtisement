@@ -1,4 +1,4 @@
-const advanceResultUrl = 'http://localhost:3000/advance/result';
+const advanceResultUrl = 'https://adhmmtisement.herokuapp.com/advance/result';
 
 const advanceResultQuery = {
     optionIds: [],

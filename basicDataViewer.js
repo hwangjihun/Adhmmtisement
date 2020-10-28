@@ -21,7 +21,7 @@ const basicDataPaginationFunction = {
     }
 };
 
-const basicDataUrl = 'http://localhost:3000/basic/data';
+const basicDataUrl = 'https://adhmmtisement.herokuapp.com/basic/data';
 
 function populateBasicDataTable(data) {
     console.log(data);

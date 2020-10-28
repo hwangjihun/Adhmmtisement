@@ -22,7 +22,7 @@ const advanceDataPaginationFunction = {
     }
 };
 
-const advanceDataUrl = 'http://localhost:3000/advance/data';
+const advanceDataUrl = 'https://adhmmtisement.herokuapp.com/advance/data';
 
 function populateAdvanceDataTable(data) {
     console.log(data);

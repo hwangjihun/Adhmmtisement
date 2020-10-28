@@ -27,7 +27,7 @@ function processBasicCSVFile() {
     for (var pair of formData.entries()) {
         console.log(pair[0] + ', ' + pair[1]);
     }
-    fetch('http://localhost:3000/basic/uploadComputeCSV', {
+    fetch('https://adhmmtisement.herokuapp.com/basic/uploadComputeCSV', {
         method: 'POST',
         body: formData
     })
