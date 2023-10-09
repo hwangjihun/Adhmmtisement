@@ -21,7 +21,7 @@ const basicDataPaginationFunction = {
     }
 };
 
-const basicDataUrl = 'https://adhmmtisement.herokuapp.com/basic/data';
+const basicDataUrl = 'https://adhmmmtisement.onrender.com/basic/data';
 
 function populateBasicDataTable(data) {
     console.log(data);
