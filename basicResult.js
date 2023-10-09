@@ -1,4 +1,4 @@
-const basicResultUrl = 'https://adhmmtisement.herokuapp.com/basic/result';
+const basicResultUrl = 'https://adhmmmtisement.onrender.com/basic/result';
 
 const basicResultQuery = {
     optionIds: [],
