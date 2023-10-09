@@ -1,4 +1,4 @@
-const advanceResultUrl = 'https://adhmmtisement.herokuapp.com/advance/result';
+const advanceResultUrl = 'https://adhmmmtisement.onrender.com/advance/result';
 
 const advanceResultQuery = {
     optionIds: [],
