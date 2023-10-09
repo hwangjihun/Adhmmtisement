@@ -27,7 +27,7 @@ function processAdvanceCSVFile() {
     for (var pair of formData.entries()) {
         console.log(pair[0] + ', ' + pair[1]);
     }
-    fetch('https://adhmmtisement.herokuapp.com/advance/uploadComputeCSV', {
+    fetch('https://adhmmmtisement.onrender.com/advance/uploadComputeCSV', {
         method: 'POST',
         body: formData
     })
