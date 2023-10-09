@@ -1,4 +1,4 @@
-const basicCSVResultUrl = 'https://adhmmtisement.herokuapp.com/basic/result';
+const basicCSVResultUrl = 'https://adhmmmtisement.onrender.com/basic/result';
 
 const basicCSVResultQuery = {
     optionIds: null,
