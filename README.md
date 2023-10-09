@@ -1,5 +1,7 @@
 # JiBaBoom
 
+A full stack website made for customers who want to reach out to as many audience as possible with the best budget price.
+
 ## Names:
 
 1. `Dannon`
