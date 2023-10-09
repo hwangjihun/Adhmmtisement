@@ -1,4 +1,4 @@
-const advanceCSVResultUrl = 'https://adhmmtisement.herokuapp.com/advance/result';
+const advanceCSVResultUrl = 'https://adhmmmtisement.onrender.com/advance/result';
 
 const advanceCSVResultQuery = {
     optionIds: null,
